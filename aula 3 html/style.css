@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.section1{
+    background-color: aquamarine;
+    padding: 20px 40px;
+    
+}
+
+.section1 h1.titulo1{
+    color: blue;
+    text-align: center;
+    
+}
+
+#idTitle{
+    color: rgb(5, 6, 48);
+    font-size: 40px;
+    
+}
+
+#section1 div {
+    display: flex;
+}
+
+.section2{
+    padding: 30px;
+    background-color: rgb(146, 77, 77);
+    font-size: 30px;
+   
+}
+
+.section2>h2{
+    text-align: center;
+}
+
+.section2.conteudo1{
+    background-color: rgb(61, 148, 115);
+}
+.section2.conteudo2{
+    background-color: rgb(61, 128, 148);
+}
+
+.section2.conteudo3{
+    background-color: rgb(61, 84, 148);
+}
+
+.section2.conteudo4{
+    background-color: rgb(148, 61, 115);
+}
+
+
+
+
+
+
