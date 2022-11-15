@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -38,9 +41,12 @@
 
 .section2.conteudo1{
     background-color: rgb(61, 148, 115);
+    font-family:arial
 }
 .section2.conteudo2{
     background-color: rgb(61, 128, 148);
+    font-family: 'Dancing Script', cursive;
+    
 }
 
 .section2.conteudo3{

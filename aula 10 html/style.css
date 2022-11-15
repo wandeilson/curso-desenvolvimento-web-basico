@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root{
+    --corPadrao: linear-gradient(90deg, rgba(107,96,199,1) 0%, rgba(4,19,69,1) 35%);
+}
+
+
+.div1, .div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form1, .form2{
+    background: var(--corPadrao);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.login{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.login input{
+    width: 250px;
+    height: 20px;
+    margin-bottom:  5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login input::placeholder{
+    color: brown;
+    text-transform: uppercase;
+}
+
+.form1 textarea{
+    border-radius: 20px;
+    text-align: center;
+    width: 290px;
+    height: 100px;
+    border: solid;
+    padding: 20px 20 px;
+}
+
+.form2{
+    background-color: blueviolet ;
+}
+
+.form2 .info{
+    width: 200px;
+    background-color: rgb(115, 175, 175);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.form2 .info legend{
+    background-color: rgb(46, 53, 59);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.div1 .form1 .botoes{
+    padding: 10px;
+}
+
+
+.div1 .form1 .botoes input, button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.div1 .form1 .botoes input:hover, button:hover{
+    background-color: rgb(63, 94, 94);
+}
+

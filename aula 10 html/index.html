@@ -5,59 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <form id="form1" action="" autocomplete="on">
-        <label for="login">Login</label>
-        <input id="login" type="email">
 
-        <label for="senha">Senha</label>
-        <input placeholder="Senha" id="senha" type="password">
+    <div>
+     
+    <div class="div2">
+        <form class="form2" action="">
 
-        <input type="color" name="" id="">
+            <div class="info">
+                <fieldset>
+                    <legend>Maior de idade</legend>
+                    <label for="maiorIdade">18 anos ou mais</label>
+                    <input id="maiorIdade" type="checkbox">
+        
+                </fieldset>
+        
+            </div>
 
-        <input type="time">
+            <div class="info">
+                <fieldset>
+                    <legend>Linguagens de programação</legend>
+                    <label for="java">Java</label>
+                    <input id="java" type="checkbox">
+            
+                    <label for="Python">Python</label>
+                    <input id="Python" type="checkbox">
+            
+                    <label for="PHP">PHP</label>
+                    <input id="PHP" type="checkbox">
+            
+                    <label for="Goolang">Goolang</label>
+                    <input id="Goolang" type="checkbox">
+        
+                </fieldset>
+            </div>
 
-        <textarea name="Descricao" id="" cols="30" rows="3" maxlength="10" placeholder="Descricao sua""></textarea>
+        </form>
+    </div>
 
 
+    </div>
 
-    </form>
 
-    <input form="form1" type="submit">
-    <input form="form1" type="reset">
-
-    <button type="reset" form="form1">Apagar</button>
-
-    <form action="">
-        <fieldset >
-            <legend>Maior de idade</legend>
-            <label for="maiorIdade">18 anos ou mais</label>
-            <input id="maiorIdade" type="checkbox">
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Linguagens de programação</legend>
-            <label for="java">Java</label>
-            <input id="java" type="checkbox">
+    <div class="div1">
+        <form class="form1" id="form1" action="" autocomplete="on">
+            <div class="login">
+                <label for="login">Login</label>
+                <input id="login" type="email">
+                <br>
+                <label for="senha">Senha</label>
+                <input placeholder="Senha" id="senha" type="password">
+            </div>
     
-            <label for="Python">Python</label>
-            <input id="Python" type="checkbox">
-    
-            <label for="PHP">PHP</label>
-            <input id="PHP" type="checkbox">
-    
-            <label for="Goolang">Goolang</label>
-            <input id="Goolang" type="checkbox">
-
-        </fieldset>
-       
+            <textarea name="Descricao" id="" cols="60" rows="20" maxlength="1000" placeholder="Descricao sua"></textarea>
+            <div class="botoes">
+                <input form="form1" type="submit">
+                <input form="form1" type="reset">
+                <button type="reset" form="form1">Apagar</button>
+            </div>
+            
+        </form>
 
 
-
-    </form>
+    </div>
     
 </body>
 </html>

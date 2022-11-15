@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    background-color: rgba(115, 115, 116, 0.589);
+    font-size: 20px;
+    height: 50px;
+    align-items: center; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+ul{
+    margin-top: 60px;
+}
+
+ol li {
+    margin-left: 10px;
+    background-color: blueviolet;
+    padding: 5px;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+dl{
+    background-color: blueviolet;
+}
+
+dt{
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 25px;
+}
+dd{
+    background-color: chocolate;
+    padding-left: 20px;
+    font-size: 18;
+}
+
+.tabela1{
+    background-color: aquamarine;
+}
+
+.tabela1 table{
+    background-color: brown;
+    color: aliceblue;
+    border: solid rgb(255, 0, 119) 5px;
+
+    width: 300px;
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+.tabela1 table td, .tabela1 table th {
+    border: solid rgb(115, 128, 206) 2px;
+}
+
+.tabela1 table th{
+    border: solid rgb(206, 164, 115) 2px;
+}
