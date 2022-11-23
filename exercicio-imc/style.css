@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color:brown
+}
+
+.campoPrincipal{
+    margin-top: 50px;
+    margin-left: 320px;
+    background-color: rgb(216, 233, 233);
+    width: 700px;
+    height: 1100px;
+    border-radius: 10px;
+}
+
+.descricao{
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 650px;
+    height: 600px;
+}
+
+.descricao p{
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 25px;
+}
+
+.descricao ul{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+    list-style: none;
+}
+
+.descricao .resultado{
+    display: flex;
+    
+}
+
+.descricao .resultado ul li{
+    margin-top: 10px;
+}
+
+.campoPrincipal .entradas form label{
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+
+.botao{
+    background-color: rgb(255, 9, 9);
+}
+form button:hover{
+    background: rgb(167, 16, 16);
+    font: bold;
+    color: white;
+}
+
+
+.campoPrincipal .entradas form input, .botao, .paragrafo-resultado, .paragrafo-bad {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 640px;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.paragrafo-resultado{
+    background-color: aqua;
+    text-align: center;
+}
+
+.paragrafo-bad{
+    background-color: red;
+    text-align: center;
+}

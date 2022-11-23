@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="campoPrincipal">
+        <div class="descricao">
+            <h2>Imc</h2>
+            <p>O IMC é reconhecido como padrão internacional para avaliar o grau de soprepeso e obsidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).</p>
+            <div class="resultado">
+                <ul>
+                    <h3>Resultado</h3>
+                    <li>Abaixo de 17</li>
+                    <li>Entre 17 e 18,49</li>
+                    <li>Entre 18,50 e 24,99</li>
+                    <li>Entre 25 e 29,99</li>
+                    <li>Entre 30 e 34,99</li>
+                    <li>Entre 35 e 39,99</li>
+                    <li>Acima de 40</li>
+                </ul>
+    
+                <ul>
+                    <h3>Situação</h3>
+                    <li>Muito abaixo do peso</li>
+                    <li>Abaixo do peso</li>
+                    <li>Peso normal</li>
+                    <li>Acima do peso</li>
+                    <li>Obesidade I</li>
+                    <li>Obesidade II (Severa)</li>
+                    <li>Obesidade III (Mórbida)</li>                
+                </ul>
+
+            </div>
+            
+            
+        </div>
+
+        
+        <div class="entradas">
+            <form action="/" id="form" class="form1" method="post">
+                <label for="peso">Peso:</label>
+                <input type="text" id="peso">
+                
+                <label for="altura">Altura:</label>
+                
+                <input type="text" id="altura">
+                <button class="botao" type="submit">Enviar</button>
+            </form>
+
+            <div id="resultado"></div>
+        </div>
+        
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
